@@ -15,8 +15,8 @@ mongoose.connect("mongodb://localhost:27017/BatmansDatabase",{
 .then(async()=>{
     console.log("Connection Successfull");
         
-    // let batman1=await addUser("batman1","imairej1");
-    // console.log(batman1);
+    let batman1=await addUser("batman1","imairej1");
+    console.log(batman1);
     // let batman2=await retrieveUsers();
     // console.log(batman2);
     // let deleteBatman=await deleteUser("657a98510c7b291a7a85e9b9");
